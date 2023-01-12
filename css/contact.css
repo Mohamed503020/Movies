@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #893DFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+overflow-x: hidden;
+background-color:#DC3D72;
+display: flex;
+justify-content: center;
+}
+
+
+/* //contact section  */
+.contact{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   background-color: #fff;
+   width: fit-content;
+   box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+
+}
+.contact .contact-box{
+    background-color: #fff;
+    padding: 20px;
+    width: 380px;
+}
+.contact-box .head{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.contact-box .head h2{
+    color:#DC3D72;
+}
+.contact-box .head span {
+    color:#a1a1a1
+}
+.contact-box .input-control{
+    margin-bottom: 15px;
+}
+.contact-box .input-control input{
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #F2F2F2;
+    outline: none;
+    color:#333;
+    font-size: 18px;
+    border: none;
+
+}
+.contact-box .input-control textarea{
+    height: 100px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    color:#333;
+    font-size: 18px;
+}
+.contact-box button{
+    background-color:#DC3D72 ;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    outline: none;
+    color:#fff;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.contact-box h6{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.contact-box button#google{
+    background-color: #fff;
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.4);
+color:#333;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contact-box button#google img{
+    width: 30px;
+
+}
+.contact-box button a{text-decoration: none; color: #fff; cursor: pointer;}
+.contact .logn-img img{
+    width: 450px;
+}
+
+::selection{
+    background-color: #DC3D72;
+    color:#fff
+}
+@media screen and (max-width: 840px){
+    .contact .logn-img img{
+        display: none;
+    }
+}
